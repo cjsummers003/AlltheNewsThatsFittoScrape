@@ -1,0 +1,30 @@
+{
+  "name": "blackhatsociety-newsscrape",
+  "version": "1.0.0",
+  "description": "MongoDB Scrape",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjsummers003/blackhatsociety-newsscrape.git"
+  },
+  "author": "CJ Summers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjsummers003/blackhatsociety-newsscrape/issues"
+  },
+  "homepage": "https://github.com/cjsummers003/blackhatsociety-newsscrape#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.4.21",
+    "mongoose-unique-validator": "^2.0.2",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0"
+  }
+}

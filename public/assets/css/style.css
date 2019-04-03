@@ -1,0 +1,75 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    padding: 70px;
+    background-image: url("../images/back2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    background-position: center;
+}
+
+
+
+#navbar{
+    color:white;
+    background-color: transparent;  
+}
+
+#title {
+    padding: 5px;
+    border: solid 1px white;
+    background-color: black;
+}
+
+.btn, a.btn , #btn ,#apiBtn{
+    margin: 0 5px;
+    background-color:blue;
+    border-color: #000;
+    color:white;
+}
+
+.jumbotron {
+    color: white;
+    margin:20px;
+    background-image: url("../images/back.jpg");
+    border: solid 1px white;
+}
+
+
+#scrapeBtn {
+    text-align: right;
+    float:right;
+}
+
+.well {
+    margin: 20px;
+    padding: 10px;
+    /* background-color: #fc6621; */
+    background-color:black;
+    border: solid 1px white;
+}
+
+.container{
+    margin: auto;
+    padding: 0;
+    color: white;
+    background-color: transparent;
+}
+
+#socialLinks{
+    float:right;
+}
+
+#text{
+    background-color:black;
+}
+
+footer {
+   margin-right: 120px;
+}
+
+a:hover,a:visited,a:link ,#scrapeBtn ,a { color:white; }
