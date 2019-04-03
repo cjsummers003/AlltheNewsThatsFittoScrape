@@ -36,7 +36,7 @@ const dbURI = process.env.MONGODB_URI || "mongodb://localhost:27017/newsArticles
 
 // Database configuration with mongoose
 mongoose.set('useCreateIndex', true)
-mongoose.connect(dbURI, { useNewUrlParser: true });
+mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 // mongoose.connect("mongodb://<dbuser>:<dbpassword>@ds145415.mlab.com:45415/heroku_bzh0wq4x");
 
 const db = mongoose.connection;
