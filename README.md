@@ -41,6 +41,17 @@ Black Hat Society is an application that lets users scrape news articles from ne
 * Cherrio
 <br>
 * NPM Packages
+<ul>
+    <li>body-parser</li>
+    <li>cheerio</li>
+    <li>express</li>
+    <li>express-handlebars</li>
+    <li>method-override</li>
+    <li>mongoose</li>
+    <li>mongoose-unique-validator</li>
+    <li>morgan</li>
+    <li>request</li>
+</ul>
 <br>
 <br>
 
