@@ -32,10 +32,11 @@ app
 // set mongoose to leverage promises
 mongoose.Promise = Promise;
 
-const dbURI = process.env.MONGODB_URI || "mongodb://localhost:27017/newsArticles";
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:27017/newsArticles";
 
 // Database configuration with mongoose
 mongoose.set('useCreateIndex', true)
+
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 // mongoose.connect("mongodb://<dbuser>:<dbpassword>@ds145415.mlab.com:45415/heroku_bzh0wq4x");
 
@@ -49,7 +50,7 @@ db.on("error", function(error) {
 // Once logged in to the db through mongoose, log a success message
 db.once("open", function() {
     console.log("Mongoose connection successful.");
-    // start the server, listen on port 3000
+    // start the server, listen on port 8000
     app.listen(PORT, function() {
         console.log("App running on port http://localhost:" + PORT);
     });
